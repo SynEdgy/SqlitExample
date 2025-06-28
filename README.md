@@ -12,7 +12,7 @@ Install-Module -Name synedgy.PSSqlite -Repository PSGallery -AllowPrerelease -Fo
 ## Usage
 
 ```powershell
-Import-Module .\myModule.psd1
+Import-Module .\myModule.psd1 -Force
 Initialize-myModuleDB -Force -Debug -Verbose
 
 # Add a car
