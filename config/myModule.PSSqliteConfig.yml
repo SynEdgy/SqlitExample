@@ -1,0 +1,20 @@
+DatabasePath: $repository
+DatabaseFile: test.db
+version: 0.0.3
+Schema:
+  Tables:
+    cars:
+      columns:
+        id:
+          type: INTEGER
+          PrimaryKey: true
+          indexed: true
+        make:
+          type: TEXT
+        model:
+          type: TEXT
+        colour:
+          type: TEXT
+
+        year:
+          type: INTEGER
